@@ -19,7 +19,7 @@ export default function Home() {
     return (
       <>
         <Navbar />
-        
+        this is buyer account
       </>
     );
   }

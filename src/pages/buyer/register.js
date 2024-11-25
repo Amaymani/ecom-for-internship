@@ -27,7 +27,7 @@ const Register = () => {
         try{
             const res =await axios.post('/api/register', formData);
             if(res.status===201){
-                router.push('/login');
+                router.push('/buyer/login');
             }
         }
         catch(error){
@@ -37,7 +37,7 @@ const Register = () => {
 
   return (
     <div className=''>
-    <Navbar/>
+
     <div className='flex justify-center items-center h-[45rem]'>
         <div className='w-full'>
     

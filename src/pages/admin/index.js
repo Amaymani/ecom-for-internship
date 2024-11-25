@@ -5,6 +5,7 @@ const index = () => {
   return (
     <div>
         <Navbar/>
+        this is admin account
     </div>
   )
 }
