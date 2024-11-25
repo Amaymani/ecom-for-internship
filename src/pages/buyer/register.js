@@ -96,9 +96,9 @@ const Register = () => {
 
                 <div className=" mt-6">
                     Already have an account? {" "}
-                    <a className="no-underline border-b border-blue text-sky-500" href="../login/">
+                    <Link className="no-underline border-b border-blue text-sky-500" href="../login/">
                         Log in
-                    </a>.
+                    </Link>.
                 </div>
             </div>
             </div>

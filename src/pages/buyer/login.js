@@ -105,9 +105,9 @@ const Login = (props) => {
 
                 <div className=" mt-6">
                     Not having the account? {" "}
-                    <a className="no-underline border-b border-blue text-sky-500" href="/buyer/register/">
+                    <Link className="no-underline border-b border-blue text-sky-500" href="/buyer/register/">
                         Sign up
-                    </a>.
+                    </Link>.
                 </div>
             </div>
             </div>
