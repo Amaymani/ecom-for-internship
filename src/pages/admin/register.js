@@ -11,7 +11,7 @@ const Register = () => {
     name: '',
     email: '',
     password: '',
-    accountType:"admin"
+    accountType:"admin",
   });
 
   const router=useRouter();
