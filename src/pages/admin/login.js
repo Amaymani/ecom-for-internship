@@ -20,8 +20,10 @@ const Login = (props) => {
 
 
   useEffect(() => {
-    if (status === 'authenticated') router.push('/admin');
-  }, [status]);
+    if (status === 'authenticated') {
+      router.push('/admin');
+    }
+  }, [status, router]);
 
   const handleChange = (e) => {
     setFormData({
